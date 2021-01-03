@@ -9,3 +9,4 @@ vncserver -localhost no
 wget https://raw.githubusercontent.com/kxknet/vnc/main/xstartup
 mv /root/xstartup ~/.vnc/xstartup
 chmod 755 ~/.vnc/xstartup
+update-alternatives --config x-terminal-emulator
