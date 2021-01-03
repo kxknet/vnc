@@ -4,3 +4,4 @@ sudo apt-get install tigervnc-standalone-server tigervnc-common
 echo "Install completed"
 echo "need configure, answer questions and set passwords"
 vncserver -localhost no
+chmod 755 ~/.vnc/xstartup
