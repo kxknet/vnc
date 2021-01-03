@@ -12,3 +12,4 @@ mv /root/xstartup ~/.vnc/xstartup
 chmod 755 ~/.vnc/xstartup
 echo "need terminal, select 2"
 update-alternatives --config x-terminal-emulator
+cd /root/;vncserver -localhost no
